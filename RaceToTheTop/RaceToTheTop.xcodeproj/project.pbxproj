@@ -22,6 +22,9 @@
 		84E0D8D91985E15400A0D7AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8D71985E15400A0D7AC /* InfoPlist.strings */; };
 		84E0D8DB1985E15400A0D7AC /* RaceToTheTopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8DA1985E15400A0D7AC /* RaceToTheTopTests.m */; };
 		84E0D8E61985E1E600A0D7AC /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */; };
+		84E0D8EA1986950B00A0D7AC /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8E91986950B00A0D7AC /* Main.iPad.storyboard */; };
+		84E0D8EC198695A500A0D7AC /* MountFuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8EB198695A500A0D7AC /* MountFuji.jpg */; };
+		84E0D8EF1986971300A0D7AC /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8EE1986971300A0D7AC /* MountainPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,10 @@
 		84E0D8DA1985E15400A0D7AC /* RaceToTheTopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaceToTheTopTests.m; sourceTree = "<group>"; };
 		84E0D8E41985E1E600A0D7AC /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
 		84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
+		84E0D8E91986950B00A0D7AC /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
+		84E0D8EB198695A500A0D7AC /* MountFuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MountFuji.jpg; sourceTree = "<group>"; };
+		84E0D8ED1986971300A0D7AC /* MountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainPath.h; sourceTree = "<group>"; };
+		84E0D8EE1986971300A0D7AC /* MountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +122,12 @@
 		84E0D8B51985E15400A0D7AC /* RaceToTheTop */ = {
 			isa = PBXGroup;
 			children = (
+				84E0D8E81986945600A0D7AC /* iPad */,
 				84E0D8C11985E15400A0D7AC /* Main.storyboard */,
+				84E0D8E91986950B00A0D7AC /* Main.iPad.storyboard */,
 				84E0D8C41985E15400A0D7AC /* ViewController.h */,
 				84E0D8C51985E15400A0D7AC /* ViewController.m */,
+				84E0D8F01986971700A0D7AC /* Model */,
 				84E0D8E71985E22900A0D7AC /* View */,
 				84E0D8C71985E15400A0D7AC /* Images.xcassets */,
 				84E0D8B61985E15400A0D7AC /* Supporting Files */,
@@ -128,6 +138,7 @@
 		84E0D8B61985E15400A0D7AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E0D8EB198695A500A0D7AC /* MountFuji.jpg */,
 				84E0D8BE1985E15400A0D7AC /* AppDelegate.h */,
 				84E0D8BF1985E15400A0D7AC /* AppDelegate.m */,
 				84E0D8B71985E15400A0D7AC /* RaceToTheTop-Info.plist */,
@@ -163,6 +174,22 @@
 				84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		84E0D8E81986945600A0D7AC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		84E0D8F01986971700A0D7AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E0D8ED1986971300A0D7AC /* MountainPath.h */,
+				84E0D8EE1986971300A0D7AC /* MountainPath.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E0D8EA1986950B00A0D7AC /* Main.iPad.storyboard in Resources */,
+				84E0D8EC198695A500A0D7AC /* MountFuji.jpg in Resources */,
 				84E0D8C81985E15400A0D7AC /* Images.xcassets in Resources */,
 				84E0D8BA1985E15400A0D7AC /* InfoPlist.strings in Resources */,
 				84E0D8C31985E15400A0D7AC /* Main.storyboard in Resources */,
@@ -264,6 +293,7 @@
 			files = (
 				84E0D8C61985E15400A0D7AC /* ViewController.m in Sources */,
 				84E0D8E61985E1E600A0D7AC /* SpaceShipView.m in Sources */,
+				84E0D8EF1986971300A0D7AC /* MountainPath.m in Sources */,
 				84E0D8C01985E15400A0D7AC /* AppDelegate.m in Sources */,
 				84E0D8BC1985E15400A0D7AC /* main.m in Sources */,
 			);
@@ -393,7 +423,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RaceToTheTop/RaceToTheTop-Prefix.pch";
 				INFOPLIST_FILE = "RaceToTheTop/RaceToTheTop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,7 +438,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RaceToTheTop/RaceToTheTop-Prefix.pch";
 				INFOPLIST_FILE = "RaceToTheTop/RaceToTheTop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +504,7 @@
 				84E0D8E01985E15400A0D7AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E0D8E11985E15400A0D7AC /* Build configuration list for PBXNativeTarget "RaceToTheTopTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +513,7 @@
 				84E0D8E31985E15400A0D7AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
