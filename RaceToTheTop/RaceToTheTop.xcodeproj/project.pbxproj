@@ -21,6 +21,7 @@
 		84E0D8D11985E15400A0D7AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0D8B31985E15400A0D7AC /* UIKit.framework */; };
 		84E0D8D91985E15400A0D7AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8D71985E15400A0D7AC /* InfoPlist.strings */; };
 		84E0D8DB1985E15400A0D7AC /* RaceToTheTopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8DA1985E15400A0D7AC /* RaceToTheTopTests.m */; };
+		84E0D8E61985E1E600A0D7AC /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84E0D8D61985E15400A0D7AC /* RaceToTheTopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaceToTheTopTests-Info.plist"; sourceTree = "<group>"; };
 		84E0D8D81985E15400A0D7AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84E0D8DA1985E15400A0D7AC /* RaceToTheTopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaceToTheTopTests.m; sourceTree = "<group>"; };
+		84E0D8E41985E1E600A0D7AC /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
+		84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 				84E0D8C11985E15400A0D7AC /* Main.storyboard */,
 				84E0D8C41985E15400A0D7AC /* ViewController.h */,
 				84E0D8C51985E15400A0D7AC /* ViewController.m */,
+				84E0D8E71985E22900A0D7AC /* View */,
 				84E0D8C71985E15400A0D7AC /* Images.xcassets */,
 				84E0D8B61985E15400A0D7AC /* Supporting Files */,
 			);
@@ -150,6 +154,15 @@
 				84E0D8D71985E15400A0D7AC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E0D8E71985E22900A0D7AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84E0D8E41985E1E600A0D7AC /* SpaceShipView.h */,
+				84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E0D8C61985E15400A0D7AC /* ViewController.m in Sources */,
+				84E0D8E61985E1E600A0D7AC /* SpaceShipView.m in Sources */,
 				84E0D8C01985E15400A0D7AC /* AppDelegate.m in Sources */,
 				84E0D8BC1985E15400A0D7AC /* main.m in Sources */,
 			);
