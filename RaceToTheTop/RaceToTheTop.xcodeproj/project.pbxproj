@@ -13,7 +13,7 @@
 		84E0D8BA1985E15400A0D7AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8B81985E15400A0D7AC /* InfoPlist.strings */; };
 		84E0D8BC1985E15400A0D7AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8BB1985E15400A0D7AC /* main.m */; };
 		84E0D8C01985E15400A0D7AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8BF1985E15400A0D7AC /* AppDelegate.m */; };
-		84E0D8C31985E15400A0D7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8C11985E15400A0D7AC /* Main.storyboard */; };
+		84E0D8C31985E15400A0D7AC /* Main.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8C11985E15400A0D7AC /* Main.iPhone.storyboard */; };
 		84E0D8C61985E15400A0D7AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8C51985E15400A0D7AC /* ViewController.m */; };
 		84E0D8C81985E15400A0D7AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8C71985E15400A0D7AC /* Images.xcassets */; };
 		84E0D8CF1985E15400A0D7AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E0D8CE1985E15400A0D7AC /* XCTest.framework */; };
@@ -22,9 +22,10 @@
 		84E0D8D91985E15400A0D7AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8D71985E15400A0D7AC /* InfoPlist.strings */; };
 		84E0D8DB1985E15400A0D7AC /* RaceToTheTopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8DA1985E15400A0D7AC /* RaceToTheTopTests.m */; };
 		84E0D8E61985E1E600A0D7AC /* SpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */; };
-		84E0D8EA1986950B00A0D7AC /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8E91986950B00A0D7AC /* Main.iPad.storyboard */; };
 		84E0D8EC198695A500A0D7AC /* MountFuji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8EB198695A500A0D7AC /* MountFuji.jpg */; };
 		84E0D8EF1986971300A0D7AC /* MountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8EE1986971300A0D7AC /* MountainPath.m */; };
+		84E0D8F31987205700A0D7AC /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0D8F21987205700A0D7AC /* PathView.m */; };
+		84E0D8F51987255100A0D7AC /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0D8F41987255100A0D7AC /* Main.iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,7 @@
 		84E0D8BD1985E15400A0D7AC /* RaceToTheTop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaceToTheTop-Prefix.pch"; sourceTree = "<group>"; };
 		84E0D8BE1985E15400A0D7AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E0D8BF1985E15400A0D7AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84E0D8C21985E15400A0D7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E0D8C21985E15400A0D7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iPhone.storyboard; sourceTree = "<group>"; };
 		84E0D8C41985E15400A0D7AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84E0D8C51985E15400A0D7AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84E0D8C71985E15400A0D7AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,10 +60,12 @@
 		84E0D8DA1985E15400A0D7AC /* RaceToTheTopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaceToTheTopTests.m; sourceTree = "<group>"; };
 		84E0D8E41985E1E600A0D7AC /* SpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipView.h; sourceTree = "<group>"; };
 		84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipView.m; sourceTree = "<group>"; };
-		84E0D8E91986950B00A0D7AC /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
 		84E0D8EB198695A500A0D7AC /* MountFuji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MountFuji.jpg; sourceTree = "<group>"; };
 		84E0D8ED1986971300A0D7AC /* MountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MountainPath.h; sourceTree = "<group>"; };
 		84E0D8EE1986971300A0D7AC /* MountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MountainPath.m; sourceTree = "<group>"; };
+		84E0D8F11987205600A0D7AC /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		84E0D8F21987205700A0D7AC /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
+		84E0D8F41987255100A0D7AC /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.iPad.storyboard; path = ../Main.iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				84E0D8E81986945600A0D7AC /* iPad */,
-				84E0D8C11985E15400A0D7AC /* Main.storyboard */,
-				84E0D8E91986950B00A0D7AC /* Main.iPad.storyboard */,
+				84E0D8C11985E15400A0D7AC /* Main.iPhone.storyboard */,
+				84E0D8F41987255100A0D7AC /* Main.iPad.storyboard */,
 				84E0D8C41985E15400A0D7AC /* ViewController.h */,
 				84E0D8C51985E15400A0D7AC /* ViewController.m */,
 				84E0D8F01986971700A0D7AC /* Model */,
@@ -170,6 +173,8 @@
 		84E0D8E71985E22900A0D7AC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84E0D8F11987205600A0D7AC /* PathView.h */,
+				84E0D8F21987205700A0D7AC /* PathView.m */,
 				84E0D8E41985E1E600A0D7AC /* SpaceShipView.h */,
 				84E0D8E51985E1E600A0D7AC /* SpaceShipView.m */,
 			);
@@ -268,11 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E0D8EA1986950B00A0D7AC /* Main.iPad.storyboard in Resources */,
 				84E0D8EC198695A500A0D7AC /* MountFuji.jpg in Resources */,
 				84E0D8C81985E15400A0D7AC /* Images.xcassets in Resources */,
 				84E0D8BA1985E15400A0D7AC /* InfoPlist.strings in Resources */,
-				84E0D8C31985E15400A0D7AC /* Main.storyboard in Resources */,
+				84E0D8C31985E15400A0D7AC /* Main.iPhone.storyboard in Resources */,
+				84E0D8F51987255100A0D7AC /* Main.iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +299,7 @@
 				84E0D8C61985E15400A0D7AC /* ViewController.m in Sources */,
 				84E0D8E61985E1E600A0D7AC /* SpaceShipView.m in Sources */,
 				84E0D8EF1986971300A0D7AC /* MountainPath.m in Sources */,
+				84E0D8F31987205700A0D7AC /* PathView.m in Sources */,
 				84E0D8C01985E15400A0D7AC /* AppDelegate.m in Sources */,
 				84E0D8BC1985E15400A0D7AC /* main.m in Sources */,
 			);
@@ -326,12 +332,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		84E0D8C11985E15400A0D7AC /* Main.storyboard */ = {
+		84E0D8C11985E15400A0D7AC /* Main.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84E0D8C21985E15400A0D7AC /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		84E0D8D71985E15400A0D7AC /* InfoPlist.strings */ = {

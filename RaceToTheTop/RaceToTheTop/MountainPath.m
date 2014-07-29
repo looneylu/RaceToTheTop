@@ -10,22 +10,22 @@
 
 @implementation MountainPath
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
-}
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
++ (NSArray *) mountainPathsForRect:(CGRect)rect
 {
-    // Drawing code
+    NSMutableArray *variousPaths = [@[] mutableCopy];
+    
+    CGPoint firstPoint = CGPointMake(rect.size.width * (1/6.0), CGRectGetMaxY(rect));
+    CGPoint secondPoint = CGPointMake(rect.size.width * (1/3.0), rect.size.height *(5/6.0));
+    
+    UIBezierPath *labyrinthPath = [UIBezierPath bezierPath];
+    labyrinthPath.lineWidth = 4.0;
+    [labyrinthPath moveToPoint:firstPoint];
+    [labyrinthPath addLineToPoint:secondPoint];
+    
+    [variousPaths addObject:labyrinthPath];
+    
+    return variousPaths;
 }
-*/
 
 @end
